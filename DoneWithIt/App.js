@@ -36,9 +36,12 @@ switch(deviceLanguage){
     clear = 'Clear';
     submit = 'Submit';
     break;
+  default:
+    t = tEn;
+    clear = 'Clear';
+    submit = 'Submit';
+    break;
 }
-
-
 
 const styles = StyleSheet.create({
   container0: {
